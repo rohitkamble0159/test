@@ -1,0 +1,109 @@
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: url('kamble.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
+nav{
+  background-color: black;
+  color: white;
+  display: flex; justify-content: space-between;
+  align-items: center; text-transform: uppercase;
+  height: 100px;
+}
+.first{
+  text-align: center;
+  width: 25%;
+
+}
+
+nav .box{
+  width: 30%;
+  display: flex; justify-content: space-around;
+letter-spacing: 4px;
+ }
+nav .first{
+  font-family: 'Antic Slab', serif;
+  letter-spacing: 3px;
+}
+nav .box{
+  font-family: 'Roboto Mono', monospace;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+  }
+  .second{
+    text-align: center;
+
+  }
+.third{
+  text-align: center;
+
+
+}
+#text3{
+  font-family: 'Parisienne', cursive;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  text-transform: capitalize;
+  color: black;
+}
+#text2{
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-transform: capitalize;
+
+}
+#text4{
+
+font-family: 'Parisienne', cursive;
+padding-top: 20px;
+padding: 20px;
+text-transform: capitalize;
+
+}
+#text5{
+  font-family: 'Antic Slab', serif;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+
+}
+#text6{
+  font-family: 'Antic Slab', serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+
+}
+.third a{
+
+  text-decoration: none;
+width: 5px;
+padding: 12px 30px;
+border-radius: 4px;
+outline: none;
+text-transform: uppercase;
+font-size: 13px;
+letter-spacing: 1px;
+}
+.btnone{
+  background-color: white;
+  background: black;
+}
